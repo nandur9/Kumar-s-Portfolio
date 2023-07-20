@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full stack developer-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: rgb(23, 45, 112);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 4, 99);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 25px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+      nav ul li a:hover {
+        color: rgb(150, 100, 144);
+        font-size: 1rem;
+      }
+      main hr {
+        background-color: rgb(7, 86, 147);
+        height: 1.3px;
+        margin: 30px 85px;
+      }
+      .left {
+        font-size: 1.9rem;
+      }
+      .firstSection {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 70px 0;
+      }
+      .firstSection > div {
+        width: 30%;
+      }
+      .leftSection {
+        font-size: 1.6rem;
+      }
+      .leftSection .buttons {
+        padding: 50px 0;
+      }
+      .leftSection .btn {
+        padding: 10px; 
+        background: rgb(81, 3, 159);
+        color: white;
+        border: 2px solid white;
+        height: 20px 0;
+        border-radius: 6px;
+        font-size: -2px;
+        cursor: pointer;
+      }
+      .rightSection img {
+        width: 80%;
+      }
+      .purple {
+        color: rgb(106, 36, 171);
+      }
+      .text-gray {
+        color: rgb(135, 14, 201);
+      }
+      #element {
+        color: rgb(123, 22, 217);
+      }
+      .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 105vh;
+      }
+      .secondSection h1 {
+        font-size: 1.9rem;
+      }
+      .secondSection .box {
+        background: white;
+        width: 81vw;
+        height: 2px;
+        margin: 86px 0;
+        display: flex;
+      }
+      .secondSection .vertical {
+        height: 90px;
+        width: 1px;
+        background-color: white;
+        margin: 0 130px;
+      }
+      .image-top {
+        width: 70px;
+        position: relative;
+        top: -55px;
+        left: -15px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 65px;
+        width: 120px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: gray;
+        width: 150px;
+        font-size: 10px;
+      }
+      footer {
+         background-color: #0e0e1a;
+      }
+      .footer {
+        display: flex;
+        padding: 30px 110px;
+        justify-content: space-evenly;
+      }
+      .footer ul {
+        list-style: none;
+      }
+      .footer > div {
+        width: 225px;
+      }
+      footer .footer-rights {
+        text-align: center;
+        color: rgb(129, 23, 161);
+        padding: 12px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Kumar's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi My Name is <span class="purple">Kumar Reddy</span>
+          <div>and I am a Possionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">Download Resume</button>
+            <button class="btn">Visit GitHub</button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="pg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection">
+        <span class="text-gray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="ETL.png" alt="" />
+            <div class="vertical-title">ETL Tester (2022-2023)</div>
+            <div class="vertical-desc">
+              ETL Tester | Rourkela, Odisha Implemented automated testing
+              frameworks,reducing manual testing time by 60% Developed an
+              automated content discovery data profiling tool to identify data
+              quality issues efficiently Improved data load performance by
+              optimising ETL processes
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="FULL.png" alt="" />
+            <div class="vertical-title">Full Stack Web Developer (2022-2023)</div>
+            <div class="vertical-desc">
+                A full stack developer works on both aspects of the development process. 
+                That's why they are familiar with multiple programming languages and 
+                frameworks, including HTML, SQL, React. js, Angular JS, etc.     
+              </div>
+        </div>
+          <div class="vertical">
+            <img class="image-top" src="Qa.png" alt="" />
+            <div class="vertical-title">QA Automation Engineer (2022-2023)</div>
+            <div class="vertical-desc">
+                UNIX/ Shell scripting basics.
+                CI/ CD pipelines using tools such as Jenkin.
+                Resilience testing.
+                Knowledge of performance testing tools such as Gatling and JMeter.
+                Understanding of containers, Kubernetes, Docker.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="civil.png" alt="" />
+            <div class="vertical-title">Civil Engineer (2014-2023)</div>
+            <div class="vertical-desc">
+                Use simple, active statements. It's best to use clear statements with strong 
+                verbs to effectively outline your skills and abilities. ...
+                Provide only necessary details. ...
+                Quantify your experience. ...
+                Illustrate the connections. ...
+                End with a goal statement.  
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Kumar's Web Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; Kumarsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Web Designer",
+          "QA automation tester",
+          "ETL Tester",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
